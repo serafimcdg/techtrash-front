@@ -1,0 +1,44 @@
+.container {
+  height: 150px;
+  display: flex;
+  background: rgb(52, 166, 226);
+  background: linear-gradient(
+    279deg,
+    rgba(52, 166, 226, 0.8911939775910365) 5%,
+    rgba(6, 56, 153, 1) 100%
+  );
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 100%;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.logoStyle {
+  width: 130px;
+}
+
+.arrowStyle {
+  width: 60px;
+}
+
+.btnSair {
+  border: solid 2px white;
+  background-color: transparent;
+  width: 60px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.titleHeader {
+  color: white;
+  align-items: center;
+  font-size: 60px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  font-family: Righteous;
+}

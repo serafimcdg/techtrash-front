@@ -1,0 +1,126 @@
+.cardFeedButtons {
+  border: solid #39a6e9 5px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 1px 1px 6px 1px rgb(0 0 0 / 10%);
+  margin: 10px 0 10px 0;
+  background: #286f9b61;
+}
+
+.cardFeed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameLixeira {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.idLixeira {
+  text-align: center;
+  color: white;
+  font-family: "Righteous";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.imgLixeira {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonsLixeira {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleFeed {
+  font-family: Righteous;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  border-bottom: solid 2px white;
+  border-top: solid 2px white;
+  margin: 40px 0 20px 0;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+  background-color: transparent;
+}
+
+.titleFeed h2 {
+  margin-bottom: 10px;
+}
+
+.buttonEdit {
+  background: rgb(9, 121, 248);
+  border: 2px solid white;
+  width: 125px;
+  height: 43px;
+  border-radius: 14px;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.btn-edit1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px 0 5px 0;
+}
+
+.btn-delet {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px 0 5px 0;
+}
+
+.btn-delet button {
+  background: rgb(218, 28, 28);
+  border: 2px solid white;
+  width: 125px;
+  height: 43px;
+  border-radius: 14px;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.btn-details button {
+  background: rgb(20, 129, 88);
+  border: 2px solid white;
+  width: 125px;
+  height: 43px;
+  border-radius: 14px;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.btn-details {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px 0 5px 0;
+}
+
+.btn-adicionar1 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}

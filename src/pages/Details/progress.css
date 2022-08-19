@@ -1,0 +1,19 @@
+.progress-bar {
+  background: linear-gradient(
+    279deg,
+    rgba(52, 166, 226, 0.8911939775910365) 5%,
+    rgba(6, 56, 153, 1) 100%
+  );
+  border-radius: 40px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.progress {
+  background-color: rgb(214, 214, 214) !important;
+  width: 40% !important;
+  border-radius: 40px;
+  margin-top: 20px;
+}

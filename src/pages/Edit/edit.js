@@ -11,6 +11,7 @@ import * as yup from "yup";
 
 const validationPost = yup.object().shape({
   localizacao: yup.string().required("*O campo não pode estar vazio"),
+  altura: yup.string().required("*O campo não pode estar vazio"),
 });
 
 function Edit() {
@@ -53,6 +54,16 @@ function Edit() {
                   {...register("localizacao")}
                 />
                 <p className="error-msg"> {errors.localizacao?.message}</p>
+              </div>
+              <div className="fields">
+                <label>Altura da lixeira</label>
+                <input
+                  type="text"
+                  name="title"
+                  className="inputStyle"
+                  {...register("altura")}
+                />
+                <p className="error-msg"> {errors.altura?.message}</p>
               </div>
               <div className="btn-edit">
                 <button type="submit">Editar</button>

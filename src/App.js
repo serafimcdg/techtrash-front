@@ -3,10 +3,12 @@ import Details from "./pages/Details/details";
 import Post from "./pages/Post/post";
 import Edit from "./pages/Edit/edit";
 import Feed from "./pages/Feed/feed";
+import Login from "./pages/Login/login";
 function App() {
   return (
     <div className="App">
       <Router>
+        <Route path="/login/" component={Login} />
         <Route path="/post" component={Post} />
         <Route path="/details/:id" component={Details} />
         <Route path="/edit/:id" component={Edit} />

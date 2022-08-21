@@ -14,7 +14,7 @@ function Header() {
         Tech Trash
         <img alt="logo" className="logoStyle" src={Logo} />
       </div>
-      <Link exact to="/">
+      <Link exact to="/login">
         <button className="btnSair">Sair</button>
       </Link>
     </div>

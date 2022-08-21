@@ -17,7 +17,7 @@ function HeaderMain() {
           <p>Adicionar</p>
         </Link>
       </div>
-      <Link exact to="/">
+      <Link exact to="/login">
         <button className="btnSair">Sair</button>
       </Link>
     </div>

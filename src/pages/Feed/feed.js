@@ -20,7 +20,7 @@ function Feed() {
       })
       .catch((e) => {
         console.log(e);
-        window.alert(`${e.response.data.message}: ${id}`);
+        // window.alert(`${e.response.data.message}: ${id}`);
       });
   };
 
@@ -32,7 +32,7 @@ function Feed() {
       })
       .catch((e) => {
         console.log(e);
-        window.alert(e);
+        // window.alert(e);
       });
   };
 
